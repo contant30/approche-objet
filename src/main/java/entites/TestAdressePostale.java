@@ -1,5 +1,6 @@
 package entites;
 
+
 public class TestAdressePostale {
 
 
@@ -9,7 +10,10 @@ public class TestAdressePostale {
             AdressePostale adr2 = new AdressePostale(10,"rue des oiseaux",14569,"Nimes");
 
         System.out.println(adr1);
-
         }
+
+
+
+
     }
 

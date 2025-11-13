@@ -7,6 +7,8 @@ public class AdressePostale {
         int codePostal;
         String ville;
 
+
+        //constructeurs
         public AdressePostale(int numeroRue, String libelleRue, int codePostal, String ville){
             this.numeroRue = numeroRue;
             this.libelleRue = libelleRue;
@@ -14,9 +16,14 @@ public class AdressePostale {
             this.ville = ville;
         }
 
-
-        // Méthode tostring()
-        public String sotring(){
-           return numeroRue+" "+ libelleRue+ " "+ codePostal+ " "+ ville;
-        }
+        // pour afficher sur le test
+    @Override
+    public String toString() {
+        return "AdressePostale{" +
+                "numeroRue=" + numeroRue +
+                ", libelleRue='" + libelleRue + '\'' +
+                ", codePostal=" + codePostal +
+                ", ville='" + ville + '\'' +
+                '}';
     }
+}
