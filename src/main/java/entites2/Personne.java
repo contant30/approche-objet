@@ -24,13 +24,15 @@ public class Personne {
 
 
        // Methode
-
-
        //méthode void qui permet d’afficher (System.out.println) le nom et le prénom avec le nom de famille en majuscules.
 
        public void afficheIdentite(){
            System.out.println(prenom+" "+nom.toUpperCase());
        }
+
+        public void afficheAdresse(){
+        System.out.println(adresse);
+        }
 
        // Méthode pour modifier le Nom
        public void setNom(String nouveauNom){

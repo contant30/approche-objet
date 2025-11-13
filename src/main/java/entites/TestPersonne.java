@@ -16,7 +16,6 @@ public class TestPersonne {
     prs1.afficheIdentite();
     prs1.setAdresse(adr2);
     prs2.afficheIdentite();
-
-    System.out.println(prs1);
+    prs1.afficheAdresse();
     }
 }
