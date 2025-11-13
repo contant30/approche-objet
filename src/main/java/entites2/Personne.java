@@ -53,18 +53,18 @@ public class Personne {
            return this.nom;
        }
 
-       public String getPrenom(String prenom){
+       public String getPrenom(){
             return this.prenom;
         }
 
-       public AdressePostale getadresse(String adresse){
+       public AdressePostale getAdresse(){
             return this.adresse;
          }
 
 
-        @Override
-        public String toString() {
-            return "Personne{" +
+       @Override
+       public String toString() {
+          return "Personne{" +
                     "nom='" + nom + '\'' +
                     ", prenom='" + prenom + '\'' +
                     ", adresse=" + adresse +

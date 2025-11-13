@@ -2,8 +2,6 @@ package entites;
 
 
 public class TestAdressePostale {
-
-
         public static void main(String[] args){
 
             AdressePostale adr1 = new AdressePostale(3,"chemin du gres",30258,"Montpellier");

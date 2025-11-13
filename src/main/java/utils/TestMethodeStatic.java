@@ -1,6 +1,5 @@
 package utils;
 
-
 public class TestMethodeStatic {
     public static void main(String[] args){
 
@@ -14,7 +13,5 @@ public class TestMethodeStatic {
         System.out.println(nombre);
         System.out.println(chaine);
         System.out.println(maximum);
-
-
     }
 }

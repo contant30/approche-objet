@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 3 instances et methode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 4 Utilisation de Methodes static existantes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites2/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     "project.structure.side.proportion": "0.42643678"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestMethodeStatic">
+  <component name="RunManager" selected="Application.TestPersonne">
     <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entites.TestAdressePostale" />
       <module name="approche-objet" />
@@ -108,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMethodeStatic" />
         <item itemvalue="Application.TestPersonne" />
         <item itemvalue="Application.TestAdressePostale" />
+        <item itemvalue="Application.TestMethodeStatic" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763046339706</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TP 4 Utilisation de Methodes static existantes">
+      <option name="closed" value="true" />
+      <created>1763049571171</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1763049571171</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +231,8 @@
     <MESSAGE value="new 2" />
     <MESSAGE value="TP 2 constructeurs" />
     <MESSAGE value="TP 3 instances et methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP 3 instances et methode" />
+    <MESSAGE value="TP 4 Utilisation de Methodes static existantes" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP 4 Utilisation de Methodes static existantes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
