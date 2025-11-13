@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="new 2">
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 2 constructeurs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" afterDir="false" />
@@ -39,7 +39,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -149,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763036492510</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TP 2 constructeurs">
+      <option name="closed" value="true" />
+      <created>1763038669448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763038669449</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TP 2 constructeurs">
+      <option name="closed" value="true" />
+      <created>1763038814816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763038814816</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="new 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new 2" />
+    <MESSAGE value="TP 2 constructeurs" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP 2 constructeurs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -175,11 +192,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entites/TestPersonne.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
