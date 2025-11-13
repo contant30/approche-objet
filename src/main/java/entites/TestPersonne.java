@@ -11,10 +11,12 @@ public class TestPersonne {
         Personne prs1 = new Personne("Contant","Romain",adr1);
         Personne prs2 = new Personne("Contant","David",adr2);
 
-    prs1.afficheNom();
-    prs1.changerNom("Pierre");
-    prs1.afficheNom();
-    prs1.reNom();
+    prs1.afficheIdentite();
+    prs1.setNom("Pierre");
+    prs1.afficheIdentite();
+    prs1.setAdresse(adr2);
+    prs2.afficheIdentite();
 
+    System.out.println(prs1);
     }
 }

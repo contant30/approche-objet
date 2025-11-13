@@ -26,34 +26,46 @@ public class Personne {
        // Methode
 
 
-        //méthode void qui permet d’afficher (System.out.println) le nom et le prénom avec le nom de famille en majuscules.
+       //méthode void qui permet d’afficher (System.out.println) le nom et le prénom avec le nom de famille en majuscules.
 
-       public void afficheNom(){
+       public void afficheIdentite(){
            System.out.println(prenom+" "+nom.toUpperCase());
        }
 
-       public void changerNom(String nouveauNom){
+       // Méthode pour modifier le Nom
+       public void setNom(String nouveauNom){
             this.nom= nouveauNom;
        }
 
-       public void changerPrenom(String nouveauPrenom){
+        // Méthode pour modifier le Prénom
+       public void setPrenom(String nouveauPrenom){
             this.prenom= nouveauPrenom;
        }
 
-       public void changerAdresse(String nouvelleAdresse){
-        this.prenom= nouvelleAdresse;
-    }
+       public void setAdresse(AdressePostale nouvelleAdresse){
+            this.adresse= nouvelleAdresse;
+        }
 
-       public String reNom(){
+       // méthode qui retourne le nom
+       public String getNom(){
            return this.nom;
        }
 
-        public String rePrenom(String prenom){
+       public String getPrenom(String prenom){
             return this.prenom;
         }
 
-        public AdressePostale adresse(String adresse){
+       public AdressePostale getadresse(String adresse){
             return this.adresse;
          }
 
+
+        @Override
+        public String toString() {
+            return "Personne{" +
+                    "nom='" + nom + '\'' +
+                    ", prenom='" + prenom + '\'' +
+                    ", adresse=" + adresse +
+                    '}';
     }
+}
