@@ -6,4 +6,8 @@ public class AdressePostale {
         String libelleRue;
         int codePostal;
         String ville;
+
+        AdressePostale(){
+            System.out.println("coucou");
+        }
     }
