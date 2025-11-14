@@ -10,6 +10,7 @@ public class TestTheatre {
         theatre.inscrire(50,200);
         theatre.inscrire(50,200);
         theatre.inscrire(110,200);
+        theatre.inscrire(110,200);
 
         // Affichage du total de clients inscrits
         System.out.println("Total de clients inscrits : " + theatre.getClientInscrits());
