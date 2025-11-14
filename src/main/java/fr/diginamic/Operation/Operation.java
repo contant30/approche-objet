@@ -2,9 +2,9 @@ package fr.diginamic.Operation;
 
 public class Operation {
 
-    public double a;
-    public double b;
-    public char op;
+    private double a;
+    private double b;
+    private char op;
 
 
     //Methode pour calcul

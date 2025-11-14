@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 8 Heritage et Abstraction">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/CalculMoyenne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestOperation.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 1 auto formation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMoyenne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/CalculMoyenne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/CalculMoyenne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
+    "Application.TestMoyenne.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.fr.diginamic.essais.TestOperation.executor": "Run",
@@ -68,13 +69,13 @@
     "project.structure.side.proportion": "0.42643678"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.fr.diginamic.essais.TestOperation">
-    <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites.TestAdressePostale" />
+  <component name="RunManager" selected="Application.TestMoyenne">
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites2.*" />
+          <option name="PATTERN" value="fr.diginamic.banque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
+    <configuration name="TestMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestMoyenne" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.*" />
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.fr.diginamic.essais.TestOperation" />
         <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBanque" />
         <item itemvalue="Application.TestPersonne" />
-        <item itemvalue="Application.TestAdressePostale" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763127664081</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="TP 1 auto formation">
+      <option name="closed" value="true" />
+      <created>1763129607648</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763129607648</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +296,8 @@
     <MESSAGE value="TP 4 Utilisation de Methodes static existantes" />
     <MESSAGE value="TP heritage et constructeurs" />
     <MESSAGE value="TP 8 Heritage et Abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP 8 Heritage et Abstraction" />
+    <MESSAGE value="TP 1 auto formation" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP 1 auto formation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
