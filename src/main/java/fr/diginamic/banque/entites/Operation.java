@@ -5,6 +5,7 @@ public  abstract class Operation {
     private String dateOperation;
     private  double montantOperation;
 
+    //Constructeur
     public Operation( String dateOperation, double montantOperation){
         this.dateOperation = dateOperation;
         this.montantOperation = montantOperation;

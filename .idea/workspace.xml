@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 1 auto formation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMoyenne.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP 1 auto formation CalculMoyenne">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Theatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestTheatre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/CalculMoyenne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/CalculMoyenne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Operation/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.TestMoyenne.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
+    "Application.TestTheatre.executor": "Run",
     "Application.fr.diginamic.essais.TestOperation.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -69,7 +70,7 @@
     "project.structure.side.proportion": "0.42643678"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestMoyenne">
+  <component name="RunManager" selected="Application.TestTheatre">
     <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.TestBanque" />
       <module name="approche-objet" />
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites2.TestPersonne" />
+    <configuration name="TestTheatre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestTheatre" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites2.*" />
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTheatre" />
         <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.fr.diginamic.essais.TestOperation" />
         <item itemvalue="Application.TestOperation" />
         <item itemvalue="Application.TestBanque" />
-        <item itemvalue="Application.TestPersonne" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763129607648</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="TP 1 auto formation CalculMoyenne">
+      <option name="closed" value="true" />
+      <created>1763132130681</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1763132130681</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +306,8 @@
     <MESSAGE value="TP heritage et constructeurs" />
     <MESSAGE value="TP 8 Heritage et Abstraction" />
     <MESSAGE value="TP 1 auto formation" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP 1 auto formation" />
+    <MESSAGE value="TP 1 auto formation CalculMoyenne" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP 1 auto formation CalculMoyenne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
