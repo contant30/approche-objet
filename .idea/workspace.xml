@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  auto formation Theatre">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/TestBanque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMoyenne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMoyenne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.banque.entites.TestOperation" />
+    <configuration name="TestOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestOperations" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.banque.entites.*" />
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,7 +140,7 @@
         <item itemvalue="Application.TestTheatre" />
         <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.fr.diginamic.essais.TestOperation" />
-        <item itemvalue="Application.TestOperation" />
+        <item itemvalue="Application.TestOperations" />
         <item itemvalue="Application.TestBanque" />
       </list>
     </recent_temporary>
@@ -288,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763135524526</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="TP  auto formation Theatre">
+      <option name="closed" value="true" />
+      <created>1763136291245</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1763136291245</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,6 +1,10 @@
-package fr.diginamic.banque.entites;
+package fr.diginamic.essais;
 
-public class TestOperation {
+import fr.diginamic.banque.entites.Credit;
+import fr.diginamic.banque.entites.Debit;
+import fr.diginamic.banque.entites.Operation;
+
+public class TestOperations {
     public static void main(String[] args) {
 
 
