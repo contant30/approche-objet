@@ -1,5 +1,5 @@
-package entites;
-import entites2.Personne;
+package entites2;
+import entites.AdressePostale;
 
 public class TestPersonne {
     public static void main(String[] args){
