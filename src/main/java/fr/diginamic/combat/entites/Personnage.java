@@ -18,7 +18,6 @@ public class Personnage {
 
 
     // Methode
-
     // pour retourner true si point de vie sup a 0 sinon false
     public boolean enVie(){
         return pointsSantePersonnage >0;
@@ -31,10 +30,8 @@ public class Personnage {
     }
 
     // Methode pour attaquer
-    public int attaque(Personnage cible){
-        int degats = this.forcePersonnage;
-        cible.recevoirDegats(degats);
-        return degats;
+    public int attaque(){
+        return forcePersonnage + (int) (Math.random()*10+1);
     }
 
 
@@ -70,11 +67,13 @@ public class Personnage {
     }
 
 
-    /*@Override
+    @Override
     public String toString() {
-        return String.format("%s [force=%d, pv=%d, score=%d]", nomPerso, force, pointsDeSante, score);
-    }*/
-
-
-
+        return "Personnage{" +
+                "nomPerso='" + nomPerso + '\'' +
+                ", forcePersonnage=" + forcePersonnage +
+                ", pointsSantePersonnage=" + pointsSantePersonnage +
+                ", scorePersonnage=" + scorePersonnage +
+                '}';
+    }
 }

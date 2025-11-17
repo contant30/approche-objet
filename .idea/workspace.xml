@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Combat">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/MenuJeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/TestCombat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Gobelin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Gobelin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Loup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Loup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Troll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763394349397</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="TP  Combat">
+      <option name="closed" value="true" />
+      <created>1763395260963</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1763395260963</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
