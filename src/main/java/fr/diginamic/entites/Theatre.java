@@ -1,4 +1,4 @@
-package fr.diginamic.banque.entites;
+package fr.diginamic.entites;
 
 public class Theatre {
     private String nom;

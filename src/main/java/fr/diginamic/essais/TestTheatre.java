@@ -1,6 +1,6 @@
 package fr.diginamic.essais;
 
-import fr.diginamic.banque.entites.Theatre;
+import fr.diginamic.entites.Theatre;
 
 public class TestTheatre {
     public static void main(String[] args){
