@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  auto formation Theatre">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaines/ManipulationChaine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Salarie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/banque/entites/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Theatre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestTheatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestTheatre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ManipulationChaine.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
@@ -71,13 +72,13 @@
     "project.structure.side.proportion": "0.42643678"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestTheatre">
-    <configuration name="TestMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestMoyenne" />
+  <component name="RunManager" selected="Application.ManipulationChaine">
+    <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="PATTERN" value="fr.diginamic.chaines.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestOperations" />
+    <configuration name="TestMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestMoyenne" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManipulationChaine" />
         <item itemvalue="Application.TestTheatre" />
         <item itemvalue="Application.moi" />
         <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.fr.diginamic.essais.TestOperation" />
-        <item itemvalue="Application.TestOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763137109152</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="TP  auto formation Theatre">
+      <option name="closed" value="true" />
+      <created>1763368583357</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1763368583357</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
