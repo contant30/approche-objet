@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  CalculSalaire">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/TestCombat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Creature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Gobelin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Loup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Troll.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Combat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763392610697</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="TP  Combat">
+      <option name="closed" value="true" />
+      <created>1763394349397</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1763394349397</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +411,8 @@
     <MESSAGE value="TP  ManipulationChaine" />
     <MESSAGE value="TP  Immobilier" />
     <MESSAGE value="TP  CalculSalaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  CalculSalaire" />
+    <MESSAGE value="TP  Combat" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP  Combat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
