@@ -3,8 +3,8 @@ package fr.diginamic.maison;
 public abstract class Piece {
 
     // Attributs
-    double superficie;
-    int numEtage;
+    private double superficie;
+    private int numEtage;
 
 
     // Constructeur
