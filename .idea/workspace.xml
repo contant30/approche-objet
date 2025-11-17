@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  ManipulationChaine">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMaison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Chambre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Cuisine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/SalleDeBain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Salon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/WC.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Immobilier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +334,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763372901507</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="TP  Immobilier">
+      <option name="closed" value="true" />
+      <created>1763380787192</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1763380787192</updated>
+    </task>
+    <task id="LOCAL-00024" summary="TP  Immobilier">
+      <option name="closed" value="true" />
+      <created>1763380792529</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1763380792529</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +376,8 @@
     <MESSAGE value="TP 1 auto formation CalculMoyenne" />
     <MESSAGE value="TP  auto formation Theatre" />
     <MESSAGE value="TP  ManipulationChaine" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  ManipulationChaine" />
+    <MESSAGE value="TP  Immobilier" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP  Immobilier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,11 +386,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/essais/TestMaison.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

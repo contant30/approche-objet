@@ -7,7 +7,7 @@ public class Maison {
 
     // Constructeur pour initialiser le tableau vide
     public Maison() {
-        arrayspiece = new Piece[0];
+        this.arrayspiece = new Piece[0];
     }
 
     // Methode ajouter une pièce
