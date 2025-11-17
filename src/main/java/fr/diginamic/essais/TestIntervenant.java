@@ -8,7 +8,7 @@ public class TestIntervenant {
     public static void main(String[] args){
 
         Salarie sal1 = new Salarie("Romain", "contant",123);
-        System.out.println("Le salaire du samarie est de : " + sal1.getSalaire()+" euro");
+        System.out.println("Le salaire du salarie est de : " + sal1.getSalaire()+" euro");
 
         Pigiste pig1= new Pigiste("Pierre","Pierre",14,10.5);
         System.out.println("Le salaire du pigiste est de : "+pig1.getSalaire()+" euro");
