@@ -5,6 +5,7 @@ public class Rectangle implements ObjetGeometrique{
     int longueur;
     int largeur;
 
+    // Constructeur
     public Rectangle(int longueur, int largeur) {
         this.longueur = longueur;
         this.largeur = largeur;
