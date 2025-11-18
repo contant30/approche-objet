@@ -9,7 +9,7 @@ public class Personnage {
     private int scorePersonnage;
 
     // Constructeur
-    public Personnage(int forcePersonnage, int pointsSantePersonnage, int scorePersonnage, String nomPerso) {
+    public Personnage(String nomPerso, int forcePersonnage, int pointsSantePersonnage, int scorePersonnage) {
         this.forcePersonnage = forcePersonnage;
         this.pointsSantePersonnage = pointsSantePersonnage;
         this.nomPerso = nomPerso;

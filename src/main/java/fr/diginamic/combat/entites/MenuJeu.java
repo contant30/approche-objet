@@ -1,6 +1,8 @@
 package fr.diginamic.combat.entites;
 import java.util.Scanner;
 
+import static fr.diginamic.combat.entites.Combat.lancerCombat;
+
 public class MenuJeu {
 
     private Personnage joueur;
@@ -19,7 +21,7 @@ public class MenuJeu {
 
             switch (choix) {
                 case 1 -> creerPersonnage();
-                case 2 -> combattre();
+                case 2 -> lancerCombat( );
                 case 3 -> System.out.println("Au revoir !");
                 default -> System.out.println("Option invalide!");
             }
@@ -28,11 +30,13 @@ public class MenuJeu {
 
     private void creerPersonnage() {
         System.out.print("Nom du personnage: ");
-        sc.nextLine(); // consommer le retour à la ligne
         String nom = sc.nextLine();
+
         int force = (int)(Math.random()*7 + 12);      // 12 à 18
-        int pv = (int)(Math.random()*31 + 20);        // 20 à 50
+        int pv = (int)(Math.random()*31 + 20);
+        // 20 à 50
         joueur = new Personnage(nom, force, pv);
+
         System.out.println("Personnage créé: " + joueur);
     }
 
