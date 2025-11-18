@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Combat">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/interfaces/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/interfaces/ObjetGeometrique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/interfaces/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/interfaces/TestObjetGeometrique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/MenuJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/MenuJeu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/combat/entites/Personnage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +60,7 @@
     "Application.TestMaison.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
+    "Application.TestObjetGeometrique.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestTheatre.executor": "Run",
@@ -76,7 +81,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MenuJeu">
+  <component name="RunManager" selected="Application.TestObjetGeometrique">
     <configuration name="ManipulationChaine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaines.ManipulationChaine" />
       <module name="approche-objet" />
@@ -129,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTheatre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestTheatre" />
+    <configuration name="TestObjetGeometrique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.interfaces.TestObjetGeometrique" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="PATTERN" value="fr.diginamic.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestObjetGeometrique" />
         <item itemvalue="Application.MenuJeu" />
         <item itemvalue="Application.TestIntervenant" />
         <item itemvalue="Application.TestMaison" />
         <item itemvalue="Application.ManipulationChaine" />
-        <item itemvalue="Application.TestTheatre" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763398733902</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="TP  Combat">
+      <option name="closed" value="true" />
+      <created>1763457668802</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1763457668802</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
