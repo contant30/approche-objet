@@ -1,4 +1,4 @@
-package fr.diginamic.equals;
+package tp.equals;
 
 public class TestEquals {
     static void main(String[] args) {

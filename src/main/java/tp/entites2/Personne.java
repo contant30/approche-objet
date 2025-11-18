@@ -1,5 +1,5 @@
-package entites2;
-import entites.AdressePostale;
+package tp.entites2;
+import tp.entites.AdressePostale;
 
 public class Personne {
 

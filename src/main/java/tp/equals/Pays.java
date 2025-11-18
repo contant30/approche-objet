@@ -1,4 +1,4 @@
-package fr.diginamic.equals;
+package tp.equals;
 
 import java.util.Objects;
 

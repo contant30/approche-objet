@@ -1,4 +1,4 @@
-package entites;
+package tp.entites;
 
 
 public class TestAdressePostale {
