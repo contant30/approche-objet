@@ -12,6 +12,7 @@ public class CreationListe {
         for (int i = 1; i < 101; i++) {
             list.add(i);
         }
+
         System.out.println(list);
         System.out.println(" la taille de la liste est de : "+list.size());
 
