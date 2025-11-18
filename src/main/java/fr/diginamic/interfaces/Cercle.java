@@ -1,5 +1,7 @@
 package fr.diginamic.interfaces;
 
+import java.util.Objects;
+
 public class Cercle implements ObjetGeometrique{
 
     double rayon;
@@ -19,5 +21,15 @@ public class Cercle implements ObjetGeometrique{
         return 2 * Math.PI * rayon;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Cercle cercle = (Cercle) o;
+        return Double.compare(rayon, cercle.rayon) == 0;
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(rayon);
+    }
 }

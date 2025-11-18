@@ -7,8 +7,8 @@ public class TestObjetGeometrique {
         ObjetGeometrique[] arrays= new ObjetGeometrique[2];
 
         // Instance de Cercle et Rectangle dans le tableau
-        arrays[0] = new Cercle(10.25);
-        arrays[1] = new Rectangle(10,15);
+        arrays[0] = new Cercle(3);
+        arrays[1] = new Rectangle(10,5);
 
         int i=0;
         for (i=0; i< arrays.length; i++){
