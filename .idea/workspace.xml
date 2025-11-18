@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercice 2 List">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/listes/TestListeInt.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercice 3 List">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/listes/TestListeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.TestEquals.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestListeInt.executor": "Run",
+    "Application.TestListeString.executor": "Run",
     "Application.TestMaison.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
@@ -82,7 +83,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestListeInt">
+  <component name="RunManager" selected="Application.TestListeString">
     <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.listes.CreationListe" />
       <module name="approche-objet" />
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.equals.TestEquals" />
+    <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.listes.TestListeInt" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.equals.*" />
+          <option name="PATTERN" value="tp.listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.listes.TestListeInt" />
+    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.listes.TestListeString" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestListeString" />
         <item itemvalue="Application.TestListeInt" />
         <item itemvalue="Application.FusionListe" />
         <item itemvalue="Application.CreationListe" />
         <item itemvalue="Application.tp.equals.TestEquals" />
-        <item itemvalue="Application.TestEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763477228665</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="TP  Exercice 3 List">
+      <option name="closed" value="true" />
+      <created>1763481166137</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1763481166137</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +521,8 @@
     <MESSAGE value="TP  APPRENDRE A REDEFINIR EQUALS" />
     <MESSAGE value="TP  Exercice 1 list" />
     <MESSAGE value="TP  Exercice 2 List" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercice 2 List" />
+    <MESSAGE value="TP  Exercice 3 List" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercice 3 List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
