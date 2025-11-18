@@ -22,11 +22,6 @@ public class Pays {
         return population == pays.population;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hashCode(population);
-    }
-
     public String getPays() {
         return pays;
     }
@@ -34,4 +29,5 @@ public class Pays {
     public int getPopulation() {
         return population;
     }
+
 }
