@@ -43,14 +43,5 @@ public class TestListeString {
         }
         System.out.println(villes);
 
-
-
-
-
-
-
-
-
-
     }
 }
