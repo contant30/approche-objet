@@ -44,6 +44,7 @@ public class LectureFichier {
         for (Ville v : villes) {
             if (v.getPopulation() > 25000) {
                 ville25K.add(v.getNom() + ";" + v.getDepartement()+ ";" + v.getNomRegion() + ";" + v.getPopulation());
+                System.out.println(ville25K);
             }
         }
 

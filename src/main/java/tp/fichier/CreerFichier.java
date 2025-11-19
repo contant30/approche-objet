@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Collections;
 import java.util.List;
 
 public class CreerFichier {
@@ -19,10 +20,18 @@ public class CreerFichier {
 
         // Afficher les 100 première lignes
         for (String list : line100) {
-            System.out.println(line100);
+           // System.out.println(line100);
         }
 
         // Copie dans un nouveau tableau
         Files.write(outputFile, line100);
+
+        Collections.sort(line100);
+
+        for(String v : line100){
+            System.out.println(line100);
+
+        }
+
     }
 }

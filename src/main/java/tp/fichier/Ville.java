@@ -1,6 +1,6 @@
 package tp.fichier;
 
-public class Ville {
+public class Ville implements Comparable<Ville>  {
 
     private String nom;
     private String departement;
@@ -14,6 +14,9 @@ public class Ville {
         this.population = population;
     }
 
+    public  int compare(Ville autre){
+        return this.nom.compareToIgnoreCase(autre.nom);
+    }
 
     public String getNom() {
         return nom;
@@ -55,5 +58,9 @@ public class Ville {
                 ", nomRegion='" + nomRegion + '\'' +
                 ", population=" + population +
                 '}';
+    }
+    @Override
+    public int compareTo(Ville o) {
+        return 0;
     }
 }
