@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercice 4 List">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/listes/TestVilles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/listes/Ville.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +66,7 @@
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestTheatre.executor": "Run",
+    "Application.TestVilles.executor": "Run",
     "Application.fr.diginamic.essais.TestOperation.executor": "Run",
     "Application.moi.executor": "Run",
     "Application.tp.equals.TestEquals.executor": "Run",
@@ -82,7 +85,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestListeString">
+  <component name="RunManager" selected="Application.TestVilles">
     <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.listes.CreationListe" />
       <module name="approche-objet" />
@@ -135,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tp.equals.TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.equals.TestEquals" />
+    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.listes.TestVilles" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.equals.*" />
+          <option name="PATTERN" value="tp.listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVilles" />
         <item itemvalue="Application.TestListeString" />
         <item itemvalue="Application.TestListeInt" />
         <item itemvalue="Application.FusionListe" />
         <item itemvalue="Application.CreationListe" />
-        <item itemvalue="Application.tp.equals.TestEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763483239033</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="TP  Exercice 4 List">
+      <option name="closed" value="true" />
+      <created>1763484009743</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1763484009743</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
