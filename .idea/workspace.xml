@@ -7,7 +7,6 @@
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercie  LireFichierAvecInstanciation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/LectureFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/LectureFichier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -556,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763557368685</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="TP  Exercie  LireFichierAvecInstanciation">
+      <option name="closed" value="true" />
+      <created>1763559367934</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1763559367934</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

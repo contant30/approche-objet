@@ -13,37 +13,40 @@ public class LectureFichier {
 
         // récupère les infos du fichier
         Path monFichier = Paths.get("C:/Users/romai/Downloads/recensement.csv");
-        Path outputFiless = Paths.get("C:/Users/romai/Downloads/nouveauFichierLigness.csv");
+        Path outputFile = Paths.get("C:/Users/romai/Downloads/nouveauFichierLignes.csv");
 
 
-        // list du fichier pathFile
+        // lecture de toutes les lignes
         List<String> line = Files.readAllLines(monFichier);
 
-        // création d un nouveau tableau
-        List<Ville> ville= new ArrayList<>();
+        // création de la liste d'objets Ville
+        List<Ville> ville = new ArrayList<>();
 
-        // parcour chaque ligne de la liste line
-        for (int i = 1 ; i < line.size(); i++){
+        // parcours des lignes (ignore l'entête avec i=1)
+        for (int i = 1; i < line.size(); i++) {
 
-        String[] tokens = line.get(i).split(";");
+            String[] tokens = line.get(i).split(";");
 
-        // recherche des variables dans different index
-        String nom = tokens[6];
-        String departement = String.valueOf(tokens[2]);
-        String nomRegion = tokens[1];
-        int population = Integer.parseInt(tokens[7].replace(" ", ""));
+            String nom = tokens[6];
+            String departement = tokens[2];
+            String nomRegion = tokens[1];
+            int population = Integer.parseInt(tokens[7].replace(" ", ""));
 
-        // ajout des variables de
-        Ville villeAjout = new Ville(nom,departement,nomRegion,population);
-        ville.add(villeAjout);
+            Ville villeAjout = new Ville(nom, departement, nomRegion, population);
+            ville.add(villeAjout);
         }
 
+        System.out.println(ville);
+
+        // création d'une liste string
         List<String> villeStrings = new ArrayList<>();
         for (Ville v : ville) {
             villeStrings.add(v.toString());
         }
 
-        Files.write(outputFiless, villeStrings);
-        System.out.println(ville);
+        // Écriture de cette liste dans le fichier de sortie
+        Files.write(outputFile, villeStrings);
+
     }
-}
+ }
+
