@@ -171,14 +171,6 @@
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
     </task>
-    <task id="LOCAL-00002" summary="new">
-      <option name="closed" value="true" />
-      <created>1763028909252</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1763028909252</updated>
-    </task>
     <task id="LOCAL-00003" summary="new">
       <option name="closed" value="true" />
       <created>1763032221901</created>
@@ -563,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763560182256</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="TP  Exercie  LireFichierAvecInstanciation">
+      <option name="closed" value="true" />
+      <created>1763560825523</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1763560825523</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
