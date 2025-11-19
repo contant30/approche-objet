@@ -13,31 +13,37 @@ public class LectureFichier {
 
         // récupère les infos du fichier
         Path monFichier = Paths.get("C:/Users/romai/Downloads/recensement.csv");
+        Path outputFiless = Paths.get("C:/Users/romai/Downloads/nouveauFichierLigness.csv");
+
 
         // list du fichier pathFile
         List<String> line = Files.readAllLines(monFichier);
 
         // création d un nouveau tableau
-        List<String> ville= new ArrayList<>();
+        List<Ville> ville= new ArrayList<>();
 
         // parcour chaque ligne de la liste line
-        for (String lines : line){
-        String[] tokens = lines.split(";");
+        for (int i = 1 ; i < line.size(); i++){
+
+        String[] tokens = line.get(i).split(";");
 
         // recherche des variables dans different index
         String nom = tokens[6];
-        String departementStr = String.valueOf(tokens[2]);
+        String departement = String.valueOf(tokens[2]);
         String nomRegion = tokens[1];
-        String populationStr = String.valueOf(tokens[7]);
+        int population = Integer.parseInt(tokens[7].replace(" ", ""));
 
-        ville.add(nom);
-
-//        System.out.println(nom);
-//        System.out.println(nomRegion);
-//        System.out.println(populationStr);
-//        System.out.println(departementStr);
+        // ajout des variables de
+        Ville villeAjout = new Ville(nom,departement,nomRegion,population);
+        ville.add(villeAjout);
         }
 
+        List<String> villeStrings = new ArrayList<>();
+        for (Ville v : ville) {
+            villeStrings.add(v.toString());
+        }
+
+        Files.write(outputFiless, villeStrings);
         System.out.println(ville);
     }
 }

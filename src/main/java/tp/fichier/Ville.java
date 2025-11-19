@@ -3,11 +3,11 @@ package tp.fichier;
 public class Ville {
 
     private String nom;
-    private int departement;
+    private String departement;
     private String nomRegion;
     private int population;
 
-    public Ville(String nom, int departement, String nomRegion, int population) {
+    public Ville(String nom, String departement, String nomRegion, int population) {
         this.nom = nom;
         this.departement = departement;
         this.nomRegion = nomRegion;
@@ -23,11 +23,11 @@ public class Ville {
         this.nom = nom;
     }
 
-    public int getDepartement() {
+    public String getDepartement() {
         return departement;
     }
 
-    public void setDepartement(int departement) {
+    public void setDepartement(String departement) {
         this.departement = departement;
     }
 

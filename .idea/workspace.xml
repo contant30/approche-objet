@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercie CreerFichier">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercie  LireFichierAvecInstanciation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/LectureFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/LectureFichier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,46 +47,46 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CreationListe.executor": "Run",
-    "Application.CreerFichier.executor": "Run",
-    "Application.FusionListe.executor": "Run",
-    "Application.LectureFichier.executor": "Run",
-    "Application.ManipulationChaine.executor": "Run",
-    "Application.MenuJeu.executor": "Run",
-    "Application.TestAdressePostale.executor": "Run",
-    "Application.TestBanque.executor": "Run",
-    "Application.TestEquals.executor": "Run",
-    "Application.TestIntervenant.executor": "Run",
-    "Application.TestListeInt.executor": "Run",
-    "Application.TestListeString.executor": "Run",
-    "Application.TestMaison.executor": "Run",
-    "Application.TestMethodeStatic.executor": "Run",
-    "Application.TestMoyenne.executor": "Run",
-    "Application.TestObjetGeometrique.executor": "Run",
-    "Application.TestOperation.executor": "Run",
-    "Application.TestPersonne.executor": "Run",
-    "Application.TestTheatre.executor": "Run",
-    "Application.TestVilles.executor": "Run",
-    "Application.fr.diginamic.essais.TestOperation.executor": "Run",
-    "Application.moi.executor": "Run",
-    "Application.tp.equals.TestEquals.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/DEV/java/approche-objet/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42643678",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CreationListe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreerFichier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FusionListe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LectureFichier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManipulationChaine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuJeu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEquals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestIntervenant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListeInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestListeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMaison.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMethodeStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMoyenne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestObjetGeometrique.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestTheatre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestVilles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fr.diginamic.essais.TestOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.moi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tp.equals.TestEquals.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/DEV/java/approche-objet/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42643678&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LectureFichier">
     <configuration name="CreerFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.fichier.CreerFichier" />
@@ -540,7 +540,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763549322244</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="TP  Exercie  LireFichierAvecInstanciation">
+      <option name="closed" value="true" />
+      <created>1763557347696</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1763557347696</updated>
+    </task>
+    <task id="LOCAL-00048" summary="TP  Exercie  LireFichierAvecInstanciation">
+      <option name="closed" value="true" />
+      <created>1763557368685</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1763557368685</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,7 +594,8 @@
     <MESSAGE value="TP  Exercice 5 List" />
     <MESSAGE value="TP  Exercie LireFichier" />
     <MESSAGE value="TP  Exercie CreerFichier" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercie CreerFichier" />
+    <MESSAGE value="TP  Exercie  LireFichierAvecInstanciation" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercie  LireFichierAvecInstanciation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
