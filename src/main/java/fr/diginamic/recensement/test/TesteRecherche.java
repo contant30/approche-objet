@@ -8,10 +8,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class TesteRecherche {
     public static void main(String[] args) throws IOException {
 
-        // récupère les infos du fichier
+        // récupère les infos du fichier avec la methode lireVilles
         List<Ville> villes = Recensement.lireVilles("C:/Users/romai/Downloads/recensement.csv");
         Recensement recensement = new Recensement(villes);
 
