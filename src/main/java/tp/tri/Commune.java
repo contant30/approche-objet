@@ -53,13 +53,15 @@ public class Commune {
 
             // tri par nom de ville
 
-            Collections.sort(ville25K);
-            for (String v : ville25K){
-            System.out.println(ville25K);
+            Collections.sort(villes);
+            for (Ville v : villes){
+            System.out.println(v);
                 }
+
+
             // Écriture du fichier
             Files.write(outputFile, ville25K);
-            System.out.println("Fichier créé avec " + (ville25K.size() - 1) + " villes de plus de 25 000 habitants.");
+            //System.out.println("Fichier créé avec " + (ville25K.size() - 1) + " villes de plus de 25 000 habitants.");
 
 
         }

@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercie  LireFichierAvecInstanciation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/tri/Commune.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercie Exercice 1  l’interface Comparable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Departement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Recensement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationDepartement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationVille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10Departements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10Regions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesFrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesParDepartement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesParRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/test/TesteRecherche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/CreerFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/CreerFichier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/LectureFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/LectureFichier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/tri/Commune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/tri/Commune.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +71,7 @@
     "Application.LectureFichier.executor": "Run",
     "Application.ManipulationChaine.executor": "Run",
     "Application.MenuJeu.executor": "Run",
+    "Application.Recensement.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestEquals.executor": "Run",
@@ -72,6 +86,7 @@
     "Application.TestPersonne.executor": "Run",
     "Application.TestTheatre.executor": "Run",
     "Application.TestVilles.executor": "Run",
+    "Application.TesteRechercheVille.executor": "Run",
     "Application.fr.diginamic.essais.TestOperation.executor": "Run",
     "Application.moi.executor": "Run",
     "Application.tp.equals.TestEquals.executor": "Run",
@@ -90,7 +105,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Commune">
+  <component name="RunManager" selected="Application.TesteRechercheVille">
     <configuration name="Commune" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.tri.Commune" />
       <module name="approche-objet" />
@@ -130,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.listes.TestListeString" />
+    <configuration name="Recensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.Recensement" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.listes.*" />
+          <option name="PATTERN" value="fr.diginamic.recensement.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.listes.TestVilles" />
+    <configuration name="TesteRecherche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.test.TesteRecherche" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.listes.*" />
+          <option name="PATTERN" value="fr.diginamic.recensement.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteRechercheVille" />
+        <item itemvalue="Application.Recensement" />
         <item itemvalue="Application.Commune" />
         <item itemvalue="Application.LectureFichier" />
         <item itemvalue="Application.CreerFichier" />
-        <item itemvalue="Application.TestVilles" />
-        <item itemvalue="Application.TestListeString" />
       </list>
     </recent_temporary>
   </component>
@@ -174,14 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
-    </task>
-    <task id="LOCAL-00004" summary="new 2">
-      <option name="closed" value="true" />
-      <created>1763036481460</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1763036481460</updated>
     </task>
     <task id="LOCAL-00005" summary="new 2">
       <option name="closed" value="true" />
@@ -567,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763561839904</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="TP  Exercie Exercice 1  l’interface Comparable">
+      <option name="closed" value="true" />
+      <created>1763566299891</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1763566299891</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +621,8 @@
     <MESSAGE value="TP  Exercie LireFichier" />
     <MESSAGE value="TP  Exercie CreerFichier" />
     <MESSAGE value="TP  Exercie  LireFichierAvecInstanciation" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercie  LireFichierAvecInstanciation" />
+    <MESSAGE value="TP  Exercie Exercice 1  l’interface Comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercie Exercice 1  l’interface Comparable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

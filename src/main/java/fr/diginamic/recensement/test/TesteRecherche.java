@@ -1,0 +1,86 @@
+package fr.diginamic.recensement.test;
+
+import fr.diginamic.recensement.Recensement;
+import fr.diginamic.recensement.Ville;
+import fr.diginamic.recensement.service.MenuService;
+import fr.diginamic.recensement.service.RecherchePopulationDepartement;
+import fr.diginamic.recensement.service.RecherchePopulationRegion;
+import fr.diginamic.recensement.service.RecherchePopulationVille;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class TesteRecherche {
+    static void main(String[] args) throws IOException {
+
+        // récupère les infos du fichier
+        List<Ville> villes = Recensement.lireVilles("C:/Users/romai/Downloads/recensement.csv");
+        Recensement recensement = new Recensement(villes);
+
+
+        // Création de la liste ville
+        List<Ville> ville = new ArrayList<>();
+
+        // Création de l'objet scanner pour lire ce que l'utilisateur tape
+        Scanner scanner = new Scanner(System.in);
+
+        // Variable
+        int choix;
+        MenuService service = null;
+
+
+        // do pour exécuter le code au moins une fois
+        do {
+
+            // Choix de l'utilisteur
+            System.out.println("Choisissez une option :");
+            System.out.println("1 - Ville");
+            System.out.println("2 - département");
+            System.out.println("3 - Region");
+            System.out.println("9 - Sortir");
+
+            // Lecture de ce que tape l'utilisateur et le rentre dans la variable choix
+            choix = scanner.nextInt();
+
+            // supprime le saut de ligne
+            scanner.nextLine();
+
+            // Recherche population par choix
+            // initialisation de la variable service à null
+            service = null;
+
+            //
+            switch (choix) {
+                case 1:
+                    service = new RecherchePopulationVille();
+                    break;
+                case 2:
+                    service = new RecherchePopulationDepartement();
+                    break;
+                case 3:
+                    service = new RecherchePopulationRegion();
+                    break;
+                case  9:
+                    System.out.println("A la prochaine");
+                    break;
+
+               // si le choix est different de case 1, 2 et 3.
+                default: System.out.println("Mauvais choix tapé : ");
+                // on modifie la variable service à null
+                service = null;
+            }
+            // Si service est non nul
+            if (service != null) {
+                //On appel la methode traiter de MenuService
+                service.traiter(recensement, scanner);
+            }
+            // tant que choix n'est pas 9 on boucle
+        } while (choix!=9);
+
+    }
+}
