@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  Exercie Exercice 1  l’interface Comparable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Departement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Recensement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationDepartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationVille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10Departements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10Regions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesFrance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesParDepartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesParRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/test/TesteRecherche.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  EXERCICE RECENSEMENT POPULATION">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/fichier/Ville.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/tri/Commune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/tri/Commune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationVille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/RecherchePopulationVille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10Regions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10Regions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesFrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/service/Top10VillesFrance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/test/TesteRecherche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/test/TesteRecherche.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
-    </task>
-    <task id="LOCAL-00005" summary="new 2">
-      <option name="closed" value="true" />
-      <created>1763036492510</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1763036492510</updated>
     </task>
     <task id="LOCAL-00006" summary="TP 2 constructeurs">
       <option name="closed" value="true" />
@@ -582,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763566299891</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="TP  EXERCICE RECENSEMENT POPULATION">
+      <option name="closed" value="true" />
+      <created>1763647763065</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1763647763066</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new" />
     <MESSAGE value="new 2" />
     <MESSAGE value="TP 2 constructeurs" />
     <MESSAGE value="TP 3 instances et methode" />
@@ -622,7 +609,8 @@
     <MESSAGE value="TP  Exercie CreerFichier" />
     <MESSAGE value="TP  Exercie  LireFichierAvecInstanciation" />
     <MESSAGE value="TP  Exercie Exercice 1  l’interface Comparable" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  Exercie Exercice 1  l’interface Comparable" />
+    <MESSAGE value="TP  EXERCICE RECENSEMENT POPULATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP  EXERCICE RECENSEMENT POPULATION" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

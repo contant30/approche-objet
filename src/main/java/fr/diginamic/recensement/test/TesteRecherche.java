@@ -2,10 +2,7 @@ package fr.diginamic.recensement.test;
 
 import fr.diginamic.recensement.Recensement;
 import fr.diginamic.recensement.Ville;
-import fr.diginamic.recensement.service.MenuService;
-import fr.diginamic.recensement.service.RecherchePopulationDepartement;
-import fr.diginamic.recensement.service.RecherchePopulationRegion;
-import fr.diginamic.recensement.service.RecherchePopulationVille;
+import fr.diginamic.recensement.service.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -16,18 +13,16 @@ import java.util.List;
 import java.util.Scanner;
 
 public class TesteRecherche {
-    static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         // récupère les infos du fichier
         List<Ville> villes = Recensement.lireVilles("C:/Users/romai/Downloads/recensement.csv");
         Recensement recensement = new Recensement(villes);
 
 
-        // Création de la liste ville
-        List<Ville> ville = new ArrayList<>();
-
         // Création de l'objet scanner pour lire ce que l'utilisateur tape
         Scanner scanner = new Scanner(System.in);
+
 
         // Variable
         int choix;
@@ -42,6 +37,7 @@ public class TesteRecherche {
             System.out.println("1 - Ville");
             System.out.println("2 - département");
             System.out.println("3 - Region");
+            System.out.println("4 - Top 10 régions les plus peuplés");
             System.out.println("9 - Sortir");
 
             // Lecture de ce que tape l'utilisateur et le rentre dans la variable choix
@@ -65,8 +61,12 @@ public class TesteRecherche {
                 case 3:
                     service = new RecherchePopulationRegion();
                     break;
+                case 4:
+                    Top10Regions top10 = new Top10Regions();
+                    top10.traiter(recensement, scanner);
+                    break;
                 case  9:
-                    System.out.println("A la prochaine");
+                    System.out.println("A la prochaine ");
                     break;
 
                // si le choix est different de case 1, 2 et 3.

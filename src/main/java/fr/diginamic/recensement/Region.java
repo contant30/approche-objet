@@ -22,6 +22,16 @@ public class Region {
         return populationRegion;
     }
 
+    public String getCodeRegion() {
+        return codeRegion;
+    }
 
+    public String getNomRegion() {
+        return nomRegion;
+    }
+
+    public int getPopulationRegion() {
+        return populationRegion;
+    }
 }
 

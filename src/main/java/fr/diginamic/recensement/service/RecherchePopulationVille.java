@@ -3,6 +3,8 @@ package fr.diginamic.recensement.service;
 import fr.diginamic.recensement.Recensement;
 import fr.diginamic.recensement.Ville;
 
+import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class RecherchePopulationVille extends MenuService {
@@ -43,15 +45,20 @@ public class RecherchePopulationVille extends MenuService {
             // On boucle tant que la variable trouve est false
         }while (!trouve) ;
 
-
+        int populationVille=0;
         // Si trouve = true
         // On parcourt toutes les villes dans le recensement
         for (Ville v : recensement.getVilles()) {
+            populationVille += v.getPopulation();
+
+            // Formatage avec espaces tous les 3 chiffres pour population
+            NumberFormat nf = NumberFormat.getInstance(Locale.FRANCE);
+            String populationFormattee = nf.format(populationVille);
 
             // si le nom de la commune est le même que celui de l'utilisateur
             if (v.getNomCommune().equalsIgnoreCase(villeChoisi)) {
                 // on retourne le nombre de populations
-                System.out.println("Population de la ville "+villeChoisi +  v.getPopulation());
+                System.out.println("Population de la ville "+villeChoisi +" "+  populationFormattee);
                 return;
             }
         }

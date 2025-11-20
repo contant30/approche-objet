@@ -4,10 +4,7 @@ import fr.diginamic.recensement.Recensement;
 import fr.diginamic.recensement.Region;
 import fr.diginamic.recensement.Ville;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Top10Regions extends MenuService{
     @Override
@@ -28,5 +25,14 @@ public class Top10Regions extends MenuService{
             region.ajouterPopulation(v.getPopulation());
         }
 
+        List<Region> regions = new ArrayList<>(mapRegions.values());
+
+        regions.sort((r1, r2) -> r2.getPopulationTotale() - r1.getPopulationTotale());
+
+        System.out.println("Les 10 régions les plus peuplées :");
+        for (int i = 0; i < 10 && i < mapRegions.size(); i++) {
+            Region r = mapRegions.get(i);
+            System.out.println((i+1) + ". " + r.getClass() + " : " + String.format("%,d", r.getPopulationTotale()).replace(',', ' ') + " habitants");
+        }
     }
 }

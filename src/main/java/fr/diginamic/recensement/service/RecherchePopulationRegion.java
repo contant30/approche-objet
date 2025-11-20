@@ -3,6 +3,8 @@ package fr.diginamic.recensement.service;
 import fr.diginamic.recensement.Recensement;
 import fr.diginamic.recensement.Ville;
 
+import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class RecherchePopulationRegion extends MenuService{
@@ -54,8 +56,14 @@ public class RecherchePopulationRegion extends MenuService{
                 popTotale += v.getPopulation();
             }
         }
+
+        // Formatage avec espaces tous les 3 chiffres pour popTotale
+        NumberFormat nf = NumberFormat.getInstance(Locale.FRANCE);
+        String populationFormattee = nf.format(popTotale);
+
+
         // A la fin de la boucle for on affiche la population total.
-        System.out.println("Population de la region "+ RegionChoisi+" "+ popTotale);
+        System.out.println("Population de la region "+ RegionChoisi+" "+ populationFormattee);
 
     }
 }
