@@ -5,10 +5,6 @@ import fr.diginamic.recensement.Ville;
 import fr.diginamic.recensement.service.*;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -38,6 +34,9 @@ public class TesteRecherche {
             System.out.println("2 - département");
             System.out.println("3 - Region");
             System.out.println("4 - Top 10 régions les plus peuplés");
+            System.out.println("5 - Top 10 des département les plus peuplés");
+            System.out.println("6 - Top 10 des villes les plus peuplé par choix de département");
+            System.out.println("7 - Top 10 des villes les plus peuplé par choix de région");
             System.out.println("9 - Sortir");
 
             // Lecture de ce que tape l'utilisateur et le rentre dans la variable choix
@@ -65,6 +64,15 @@ public class TesteRecherche {
                     Top10Regions top10 = new Top10Regions();
                     top10.traiter(recensement, scanner);
                     break;
+                case 5:
+                    Top10Departements top10Dep= new Top10Departements();
+                    top10Dep.traiter(recensement,scanner);
+                case 6:
+                    service = new Top10VillesParDepartement();
+                    break;
+                case 7 :
+                    service = new Top10VillesParRegion();
+                   break;
                 case  9:
                     System.out.println("A la prochaine ");
                     break;

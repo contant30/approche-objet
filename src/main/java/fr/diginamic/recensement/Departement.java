@@ -6,7 +6,7 @@ public class Departement  {
     private int populationDepartement;
 
 
-    public Departement(String codeDepartement, int populationDepartement) {
+    public Departement(String codeDepartement) {
         this.codeDepartement = codeDepartement;
         this.populationDepartement = populationDepartement;
     }
@@ -22,6 +22,8 @@ public class Departement  {
     }
 
 
-
+    public String getCodeDepartement() {
+        return codeDepartement;
+    }
 }
 

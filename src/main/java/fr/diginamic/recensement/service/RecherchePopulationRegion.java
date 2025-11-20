@@ -28,7 +28,7 @@ public class RecherchePopulationRegion extends MenuService{
             //Boucle pour parcourir toutes les villes dans le recensement
         for (Ville v : recensement.getVilles()) {
             // On compare CodeRegion avec RegionChoisi
-            if (v.getNomRegion().equals(RegionChoisi)) {
+            if (v.getNomRegion().equalsIgnoreCase(RegionChoisi)) {
                 // on initialise la variable trouve à true quand une comparaison est trouvé
                 trouve = true;
                 // on sort de la boucle
@@ -51,7 +51,7 @@ public class RecherchePopulationRegion extends MenuService{
         for (Ville v : recensement.getVilles()){
 
             // Pour chaque boucle, on compare CodeDepartement avec departementChoisi
-            if (v.getNomRegion().equals(RegionChoisi)){
+            if (v.getNomRegion().equalsIgnoreCase(RegionChoisi)){
                 // Si une comparaison est trouvé, on entre sa population dans la variable popTotale
                 popTotale += v.getPopulation();
             }
