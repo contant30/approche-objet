@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="Exercice 2 &#10;MAP ET HASHMAP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/FusionMap.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="Exercice 3&#10;MAP ET HASHMAP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/ComptagePaysParContinent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/MapVilles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/ressources/Pays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/ressources/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/maps/CreationMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/maps/CreationMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/maps/Employes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/maps/ressources/Employes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +55,7 @@
   "keyToString": {
     "Application.ApplicationRecensement.executor": "Run",
     "Application.Commune.executor": "Run",
+    "Application.ComptagePaysParContinent.executor": "Run",
     "Application.CreationEtManipulationMap.executor": "Run",
     "Application.CreationListe.executor": "Run",
     "Application.CreationMap.executor": "Run",
@@ -57,6 +64,7 @@
     "Application.FusionMap.executor": "Run",
     "Application.LectureFichier.executor": "Run",
     "Application.ManipulationChaine.executor": "Run",
+    "Application.MapVilles.executor": "Run",
     "Application.MenuJeu.executor": "Run",
     "Application.Recensement.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
@@ -92,13 +100,13 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FusionMap">
-    <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
+  <component name="RunManager" selected="Application.ComptagePaysParContinent">
+    <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.maps.ComptagePaysParContinent" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.recensement.*" />
+          <option name="PATTERN" value="tp.maps.ressources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,7 +119,7 @@
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.maps.*" />
+          <option name="PATTERN" value="tp.maps.ressources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,7 +132,7 @@
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.maps.*" />
+          <option name="PATTERN" value="tp.maps.ressources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,7 +145,7 @@
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.maps.*" />
+          <option name="PATTERN" value="tp.maps.ressources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.Recensement" />
+    <configuration name="MapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.maps.MapVilles" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.recensement.service.*" />
+          <option name="PATTERN" value="tp.maps.ressources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComptagePaysParContinent" />
+        <item itemvalue="Application.MapVilles" />
         <item itemvalue="Application.FusionMap" />
         <item itemvalue="Application.CreationEtManipulationMap" />
         <item itemvalue="Application.CreationMap" />
-        <item itemvalue="Application.ApplicationRecensement" />
-        <item itemvalue="Application.Recensement" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
-    </task>
-    <task id="LOCAL-00012" summary="TP 4 Utilisation de Methodes static existantes">
-      <option name="closed" value="true" />
-      <created>1763051589144</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1763051589144</updated>
     </task>
     <task id="LOCAL-00013" summary="TP heritage et constructeurs">
       <option name="closed" value="true" />
@@ -569,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763720906887</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Exercice 3&#10;MAP ET HASHMAP">
+      <option name="closed" value="true" />
+      <created>1763721514527</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1763721514527</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TP 3 instances et methode" />
     <MESSAGE value="TP 4 Utilisation de Methodes static existantes" />
     <MESSAGE value="TP heritage et constructeurs" />
     <MESSAGE value="TP 8 Heritage et Abstraction" />
@@ -609,7 +616,8 @@
     <MESSAGE value="TP  EXERCICE RECENSEMENT POPULATION" />
     <MESSAGE value="Exercie  MAP ET HASHMAP" />
     <MESSAGE value="Exercice 2 &#10;MAP ET HASHMAP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 2 &#10;MAP ET HASHMAP" />
+    <MESSAGE value="Exercice 3&#10;MAP ET HASHMAP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 3&#10;MAP ET HASHMAP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

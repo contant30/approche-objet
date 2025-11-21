@@ -1,5 +1,7 @@
 package tp.maps;
 
+import tp.maps.ressources.Employes;
+
 import java.util.HashMap;
 import java.util.Map;
 
