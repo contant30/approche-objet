@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP  EXERCICE RECENSEMENT POPULATION">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/CreationMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/Employes.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="Exercie  MAP ET HASHMAP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/maps/CreationEtManipulationMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
   "keyToString": {
     "Application.ApplicationRecensement.executor": "Run",
     "Application.Commune.executor": "Run",
+    "Application.CreationEtManipulationMap.executor": "Run",
     "Application.CreationListe.executor": "Run",
     "Application.CreationMap.executor": "Run",
     "Application.CreerFichier.executor": "Run",
@@ -92,7 +92,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CreationMap">
+  <component name="RunManager" selected="Application.CreationEtManipulationMap">
     <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
       <module name="approche-objet" />
@@ -119,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.maps.CreationMap" />
+    <configuration name="CreationEtManipulationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.maps.CreationEtManipulationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -132,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LectureFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.fichier.LectureFichier" />
+    <configuration name="CreationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.maps.CreationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp.fichier.*" />
+          <option name="PATTERN" value="tp.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreationEtManipulationMap" />
         <item itemvalue="Application.CreationMap" />
         <item itemvalue="Application.ApplicationRecensement" />
         <item itemvalue="Application.Recensement" />
         <item itemvalue="Application.Commune" />
-        <item itemvalue="Application.LectureFichier" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
-    </task>
-    <task id="LOCAL-00010" summary="TP 3 instances et methode">
-      <option name="closed" value="true" />
-      <created>1763046339706</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1763046339706</updated>
     </task>
     <task id="LOCAL-00011" summary="TP 4 Utilisation de Methodes static existantes">
       <option name="closed" value="true" />
@@ -569,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763714323310</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Exercie  MAP ET HASHMAP">
+      <option name="closed" value="true" />
+      <created>1763720192775</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1763720192775</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new 2" />
     <MESSAGE value="TP 2 constructeurs" />
     <MESSAGE value="TP 3 instances et methode" />
     <MESSAGE value="TP 4 Utilisation de Methodes static existantes" />
@@ -609,7 +608,8 @@
     <MESSAGE value="TP  Exercie  LireFichierAvecInstanciation" />
     <MESSAGE value="TP  Exercie Exercice 1  l’interface Comparable" />
     <MESSAGE value="TP  EXERCICE RECENSEMENT POPULATION" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP  EXERCICE RECENSEMENT POPULATION" />
+    <MESSAGE value="Exercie  MAP ET HASHMAP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercie  MAP ET HASHMAP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
