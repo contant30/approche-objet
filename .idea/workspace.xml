@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="Exercice 3&#10;date">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/Continent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/Saison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/TestContinentAvecEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/TestEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/villeContinent.java" afterDir="false" />
+    <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP – LES ENUMERATIONS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/Saison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/Saison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/TestEnumeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/TestEnumeration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,7 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestContinentAvecEnum">
+  <component name="RunManager" selected="Application.TestEnumeration">
     <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.maps.ComptagePaysParContinent" />
       <module name="approche-objet" />
@@ -172,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestContinentAvecEnum" />
         <item itemvalue="Application.TestEnumeration" />
+        <item itemvalue="Application.TestContinentAvecEnum" />
         <item itemvalue="Application.TestDates" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.ComptagePaysParContinent" />
@@ -188,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
-    </task>
-    <task id="LOCAL-00015" summary="TP 1 auto formation">
-      <option name="closed" value="true" />
-      <created>1763129607648</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1763129607648</updated>
     </task>
     <task id="LOCAL-00016" summary="TP 1 auto formation CalculMoyenne">
       <option name="closed" value="true" />
@@ -581,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763741683024</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="TP – LES ENUMERATIONS">
+      <option name="closed" value="true" />
+      <created>1763989689247</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1763989689248</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TP heritage et constructeurs" />
     <MESSAGE value="TP 8 Heritage et Abstraction" />
     <MESSAGE value="TP 1 auto formation" />
     <MESSAGE value="TP 1 auto formation CalculMoyenne" />
@@ -621,7 +617,8 @@
     <MESSAGE value="Exercice 2 &#10;MAP ET HASHMAP" />
     <MESSAGE value="Exercice 3&#10;MAP ET HASHMAP" />
     <MESSAGE value="Exercice 3&#10;date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 3&#10;date" />
+    <MESSAGE value="TP – LES ENUMERATIONS" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP – LES ENUMERATIONS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

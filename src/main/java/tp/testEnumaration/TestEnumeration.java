@@ -16,9 +16,11 @@ public class TestEnumeration {
 
         String nom = "HIVER";
         Saison ete = Saison.valueOf(nom);
-        System.out.println(ete.getNom());
+        //System.out.println(ete.getNom());
 
-        for (Saison s : list) {
+        Saison saison= Saison.rechercheLibelle(nom);
+        System.out.println(saison);
+       /* for (Saison s : list) {
             System.out.println(s);
 
 
@@ -28,7 +30,7 @@ public class TestEnumeration {
             } else {
                 System.out.println("Saison inconnue !");
             }
-        }
+        }*/
 
     }
 }

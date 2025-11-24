@@ -32,7 +32,7 @@ public enum Saison {
                 '}';
     }
 
-    public static Saison fromLibelle(String nomSaison) {
+    public static Saison rechercheLibelle(String nomSaison) {
         for (Saison s : Saison.values()) { // Parcourt toutes les constantes de l'enum
             if (s.getNom().equalsIgnoreCase(nomSaison)) { // Ignore la casse
                 return s; // Retourne la saison correspondante
