@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4dfa1017-3bff-4ce0-bfed-23d0f83ab129" name="Changes" comment="TP – LES ENUMERATIONS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/Saison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/Saison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/TestEnumeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/testEnumaration/TestEnumeration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,10 @@
     "Application.fr.diginamic.essais.TestOperation.executor": "Run",
     "Application.moi.executor": "Run",
     "Application.tp.equals.TestEquals.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -95,26 +97,13 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/DEV/java/approche-objet/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42643678",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestEnumeration">
-    <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp.maps.ComptagePaysParContinent" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tp.maps.ressources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TransformeVilleEnJson">
     <configuration name="TestContinentAvecEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.testEnumaration.TestContinentAvecEnum" />
       <module name="approche-objet" />
@@ -167,13 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransformeVilleEnJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gson.TransformeVilleEnJson" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransformeVilleEnJson" />
         <item itemvalue="Application.TestEnumeration" />
         <item itemvalue="Application.TestContinentAvecEnum" />
         <item itemvalue="Application.TestDates" />
         <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.ComptagePaysParContinent" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763028443017</updated>
-    </task>
-    <task id="LOCAL-00016" summary="TP 1 auto formation CalculMoyenne">
-      <option name="closed" value="true" />
-      <created>1763132130681</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1763132130681</updated>
     </task>
     <task id="LOCAL-00017" summary="TP  auto formation Theatre">
       <option name="closed" value="true" />
@@ -578,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763989689248</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="TP – LES ENUMERATIONS">
+      <option name="closed" value="true" />
+      <created>1763995556235</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1763995556236</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
